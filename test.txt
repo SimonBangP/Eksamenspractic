@@ -1,0 +1,2 @@
+Tester om den skriver til filen
+Skriver endnu en sætning til filen og ser om while loopet skriver denne sætning på String word

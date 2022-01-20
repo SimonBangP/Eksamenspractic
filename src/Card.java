@@ -6,7 +6,7 @@ public class Card {
         this.suit = suit;
         this.value = value;
     }
-    public Card (){}
+    //public Card (){}
 
     public void beats (int a, int b){
 

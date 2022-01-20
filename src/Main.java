@@ -1,7 +1,12 @@
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
 public class Main {
 
 
-    public static void main (String [] args){
+    public static void main (String [] args) throws IOException{
 
     //Keyword keyword1 = new Keyword("hej", "hej");
       //  System.out.println(keyword1.matches());
@@ -31,14 +36,34 @@ public class Main {
             bmi1.isUnderWeight();
         }*/
 
-    Article article1 = new Article();
+    /* Article article1 = new Article();
     article1.setBody("Lav en klasse Article der har tre attributter heading, body og author. Lav test-kode der " +
             "sætter alle tre attributter, og sørg for at body er en lang tekst");
     String longestWord = article1.longestWord(article1.getBody());
         System.out.println("The longest word is: " + longestWord);
     String finalText = article1.getWords(article1.getBody());
         System.out.println();
-        System.out.println(finalText);
+        System.out.println(finalText); */
+
+        /* User user = new User("Simon Bang Pedersen");
+        String userID = user.createUserID();
+        System.out.println(userID);*/
+
+        /* Names name1 = new Names("Simon Bang Pedersen");
+        Names name2 = new Names("Signe Garfield");
+        System.out.println(name1);
+        System.out.println();
+        System.out.println(name2);*/
+
+        /* DateAgeCalculator date1 = new DateAgeCalculator(25);
+        DateAgeCalculator date2 = new DateAgeCalculator(25, 18);
+        DateAgeCalculator date3 = new DateAgeCalculator(27, 20);
+        int lovestDateAge = date3.lovestDateAge();
+        System.out.println(lovestDateAge);
+        //date2.legalDate(lovestDateAge);
+        System.out.println();
+        date3.legalDate(lovestDateAge);*/
+
 
     }
 }
